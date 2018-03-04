@@ -49,7 +49,7 @@ handleCheckListChange(e){
 }
 ...
 <CheckList
-  className='xs-check-list'
+  className='my-check-list-class'
   items={data}
   checkedIcon='💰'
   onChange={this.handleCheckListChange}
@@ -57,22 +57,24 @@ handleCheckListChange(e){
 
 ```
 # Style
-Sure, this could be improved. Checklist has a 'className', which allows for class
-more suitable to your project
+Checklist has a 'className' props, which enables for class name more suitable
+to your project and tastes. Sure, this has lots of room for improvement.
 
 ```css
 
-.xs-check-list {
+// the class we assigned to the CheckList 'className' prop.
+.my-check-list-class {
   list-style-type: none;
   margin: 2px;
   padding:2px;
-  background: #ccc;
-  border: 2px solid #000;
+  background: #eee;
+  border: 2px solid #888;
   width: 250px;
   color: #222;
 }
 
-,xs-check-list li {
+// you can go deeper too, of course
+.my-check-list-class li {
   width: 250px;
   height: 25px;
   color: #fff;
