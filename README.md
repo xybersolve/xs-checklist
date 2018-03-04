@@ -36,13 +36,10 @@ yarn add xs-checklist
 ```
 
 # Usage
-Three examples below, show
-1. Simplest: default checkmark
-2. Custom Icon, shows when 'checked'
-3. Check & unchecked icons, checked & unchecked text
+Shows simple assignment of checkmark emoticon.
 
 ```js
-import CheckBox from 'xs-checkbox'
+import CheckList from 'xs-checklist'
 
 ...
 
@@ -59,7 +56,6 @@ handleCheckListChange(e){
 />
 
 ```
-
 # Style
 Sure, this could be improved. Checklist has a 'className', which allows for class
 more suitable to your project
