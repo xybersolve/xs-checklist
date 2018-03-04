@@ -4,7 +4,6 @@ import PropTypes from 'prop-types';
 import CheckBox from 'xs-checkbox';
 
 const Item = ({ id, display, enabled, onChange, checkedIcon, unCheckedIcon }) => {
-  console.log(`Item: ${id}, ${display}, ${enabled}`);
   return (
     <li className="xs-checklist-item">
       <CheckBox
